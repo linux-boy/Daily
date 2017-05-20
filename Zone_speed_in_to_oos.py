@@ -54,7 +54,6 @@ def put_data_into_oss(inf):
     posturl = 'https://oss.tech.cn.com/api/data/v1/save'
     try:
         response = urllib2.urlopen(posturl, postdata)
-        print response.geturl()
     except Exception as e:
         raise e
     
