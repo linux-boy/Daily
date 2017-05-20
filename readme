@@ -1,3 +1,3 @@
-execute:
+Execute:
 python Zone_speed_in_to_oos.py -f [file]
 
